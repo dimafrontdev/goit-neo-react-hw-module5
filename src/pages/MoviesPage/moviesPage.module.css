@@ -1,0 +1,27 @@
+.title {
+  color: #ffa800;
+  font-size: 64px;
+}
+
+.input {
+  padding: 10px 16px;
+  border-radius: 30px;
+  border: 2px solid #a1aebf;
+  background: transparent;
+  min-width: 320px;
+  color: white;
+}
+
+.search {
+  border-radius: 100px;
+  padding: 10px 16px;
+  border: none;
+  margin-left: 16px;
+  background: #ffa800;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search:hover {
+  background: #ff8c00;
+}

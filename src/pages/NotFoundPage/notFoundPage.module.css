@@ -1,0 +1,21 @@
+.title {
+  color: #ffa800;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 260px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 auto;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.home:hover {
+  color: #ffa800;
+}

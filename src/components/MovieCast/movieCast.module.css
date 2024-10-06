@@ -1,0 +1,27 @@
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.image {
+  width: 100px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.actorName,
+.characterName {
+  max-width: 100px;
+  color: white;
+  font-size: 12px;
+}
+
+.characterName {
+  color: #ffa800;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
